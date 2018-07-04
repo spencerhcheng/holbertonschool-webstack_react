@@ -1,0 +1,23 @@
+{
+  "name": "6-jquery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/spencerhcheng/holbertonschool-webstack_react",
+  "author": "Spencer Cheng",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --host 0.0.0.0 --port 5000"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.3.1",
+    "path": "^0.12.7",
+    "webpack": "^4.14.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.0.8",
+    "webpack-hot-middleware": "^2.22.2"
+  }
+}
