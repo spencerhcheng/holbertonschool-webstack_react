@@ -4,7 +4,7 @@ import Title from './title.jsx';
 export default class App extends React.Component {
 	render() {
 		return(
-      <Title name="Holberton School" />
+      <Title />
 		);
 	}
 }
